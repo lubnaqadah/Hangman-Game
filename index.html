@@ -1,0 +1,33 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Hang Man</title>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="site-wrapper">
+	<div class="inner cover">
+  
+   <h1>Hangman</h1>
+    <h2>Soccer Stars JavaScript Hangman Game</h2>
+    <h3>Guess the player name from his famous celebration.</h3>
+    <h3>Press enter to start.</h3>
+   
+   <div>
+   	<img id="clue" src="assets/images/first.jpg" alt="">
+   </div>
+    <p>Please choose a letter from a-z!! </p>
+    <p>The player name is: <br> <span id="hold"></span> </p>
+    
+    <p>Score: <span id="score"></span>  </p>
+    <p id="guessesLeft">Number of guesses remaining:  </p>
+    <p> Letters already guessed: <span id="guessed"></span>  </p>
+     
+     
+      <button id="reset" onClick="location.reload()">Play again</button>
+   
+ </div>
+<script type="text/javascript" src="assets/js/script.js"> </script>
+</body>
+</html>
